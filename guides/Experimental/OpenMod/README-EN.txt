@@ -6,6 +6,9 @@ UnturnedGuard Discord: https://discord.gg/jc4FPg6H6S
 GitHub: https://github.com/sunnamed434 / https://github.com/UnturnedGuard
 Email: sunnamed434@proton.me
 
+Found a mistake in translation? Something is wrong? Make your change/addition to the installation guide here:
+https://github.com/UnturnedGuard/UnturnedGuard-install-guide
+
 >>> Installation
 Process of the first installation
 
@@ -18,6 +21,9 @@ Go to the OpenMod\openmod.yaml file, and set hotreloading to false, and don't fo
 
 4. Execute commands:
 om install LiteDB
+om install Discord.Net.Webhook@3.12.0
+om install Lib.Harmony@2.2.2
+om install SteamWebAPI2@4.2.0
 
 5. Stop the server
 
@@ -32,12 +38,13 @@ libraries -> OpenMod\plugins
 
 8. Configure the plugin configuration
 DebugMode: For specific cases when you asked to do that by the guard devs
-AdvertisePlugin: means that you will see in Lobby of your server in Unturned Plugins page that Guard is installed, set false to disable it (not required).
 
 # Set to true to enable DebugMode, enable only if asked or you want to get more debug information.
 DebugMode: false
 
 9. Run Server
+
+10. Done!
 
 If you need help or you have questions/want to report a bug: https://discord.gg/jc4FPg6H6S
 
@@ -53,5 +60,7 @@ plugins -> OpenMod\plugins
 libraries -> OpenMod\plugins
  
 3. Run Server
+
+4. Done!
 
 If you need help or you have questions/want to report a bug: https://discord.gg/jc4FPg6H6S

@@ -6,6 +6,9 @@ UnturnedGuard Discord: https://discord.gg/jc4FPg6H6S
 GitHub: https://github.com/sunnamed434 / https://github.com/UnturnedGuard
 Email: sunnamed434@proton.me
 
+Found a mistake in translation? Something is wrong? Make your change/addition to the installation guide here:
+https://github.com/UnturnedGuard/UnturnedGuard-install-guide
+
 >>> Installation
 Process of the first installation
 
@@ -18,6 +21,9 @@ Go to the OpenMod\openmod.yaml file, and set hotreloading to false, and don't fo
 
 4. Execute commands:
 om install LiteDB
+om install Discord.Net.Webhook@3.12.0
+om install Lib.Harmony@2.2.2
+om install SteamWebAPI2@4.2.0
 
 5. Stop the server
 
@@ -39,6 +45,8 @@ DebugMode: false
 
 9. Run Server
 
+10. Done!
+
 If you need help or you have questions/want to report a bug: https://discord.gg/jc4FPg6H6S
 
 >>> Update
@@ -53,5 +61,7 @@ plugins -> OpenMod\plugins
 libraries -> OpenMod\plugins
  
 3. Run Server
+
+4. Done!
 
 If you need help or you have questions/want to report a bug: https://discord.gg/jc4FPg6H6S
