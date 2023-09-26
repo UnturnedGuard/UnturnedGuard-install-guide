@@ -1,4 +1,4 @@
---- UnturnedGuard Gold for OpenMod Installation 
+--- UnturnedGuard Gold for OpenMod Installation
 
 Brought you by sunnamed434, contact by any questions or concerns: 
 Discord: sunnamed
