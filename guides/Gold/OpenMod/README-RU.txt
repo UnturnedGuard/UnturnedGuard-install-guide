@@ -20,7 +20,10 @@ https://github.com/UnturnedGuard/UnturnedGuard-install-guide
 3. Запустите сервер и ждите пока он полностью запустится
 
 4. Вызовите следующие команды:
-om install LiteDB
+om install LiteDB@5.0.16
+om install Microsoft.EntityFrameworkCore.Tools@3.1.24
+om install Microsoft.EntityFrameworkCore.Design@3.1.24
+om install Pomelo.EntityFrameworkCore.MySql@3.2.7
 om install Discord.Net.Webhook@3.12.0
 om install Lib.Harmony@2.2.2
 om install SteamWebAPI2@4.2.0

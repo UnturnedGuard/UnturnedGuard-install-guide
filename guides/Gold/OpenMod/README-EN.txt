@@ -20,7 +20,10 @@ Go to the OpenMod\openmod.yaml file, and set hotreloading to false, and don't fo
 3. Run server and wait until full load
 
 4. Execute commands:
-om install LiteDB
+om install LiteDB@5.0.16
+om install Microsoft.EntityFrameworkCore.Tools@3.1.24
+om install Microsoft.EntityFrameworkCore.Design@3.1.24
+om install Pomelo.EntityFrameworkCore.MySql@3.2.7
 om install Discord.Net.Webhook@3.12.0
 om install Lib.Harmony@2.2.2
 om install SteamWebAPI2@4.2.0
