@@ -14,41 +14,25 @@ Process of the first installation
 
 1. Stop the server if running
 
-2. Disable HotReload
-Go to the OpenMod\openmod.yaml file, and set hotreloading to false, and don't forget to save the file
-
-3. Run server and wait until full load
-
-4. Execute commands:
-om install LiteDB@5.0.16
-om install Microsoft.EntityFrameworkCore.Tools@3.1.32
-om install Microsoft.EntityFrameworkCore.Design@3.1.32
-om install Pomelo.EntityFrameworkCore.MySql@3.2.7
-om install Discord.Net.Webhook@3.12.0
-om install Lib.Harmony@2.2.2
-om install SteamWebAPI2@4.2.0
-
-5. Stop the server
-
-6. Copy the content of the Plugins and Libraries of the installed loader in the same folders:
+2. Copy the content of the Plugins and Libraries of the installed loader in the same folders:
 Press Replace the files in the destination button if asked!
  
 plugins -> OpenMod\plugins
 libraries -> OpenMod\plugins
 
-7. Open configuration of the plugin
+3. Open configuration of the plugin
 - OpenMod\plugins\UnturnedGuardDemoBootstrapper.OpenMod\config.yaml
 
-8. Configure the plugin configuration
+4. Configure the plugin configuration
 DebugMode: For specific cases when you asked to do that by the guard devs
 AdvertisePlugin: means that you will see in Lobby of your server in Unturned Plugins page that Guard is installed, set false to disable it (not required).
 
 # Set to true to enable DebugMode, enable only if asked or you want to get more debug information.
 DebugMode: false
 
-9. Run Server
+5. Run Server
 
-10. Done!
+6. Done!
 
 If you need help or you have questions/want to report a bug: https://discord.gg/jc4FPg6H6S
 

@@ -14,45 +14,27 @@ https://github.com/UnturnedGuard/UnturnedGuard-install-guide
 
 1. Выключите сервер (если запущен)
 
-2. Отключите HotReload
-Откройте файл OpenMod\openmod.yaml и уставите hotreloading на false и не забудьте сохранить файл
-
-3. Запустите сервер и ждите пока он полностью запустится
-
-4. Вызовите следующие команды:
-om install LiteDB@5.0.16
-om install Microsoft.EntityFrameworkCore.Tools@3.1.32
-om install Microsoft.EntityFrameworkCore.Design@3.1.32
-om install Pomelo.EntityFrameworkCore.MySql@3.2.7
-om install Discord.Net.Webhook@3.12.0
-om install Lib.Harmony@2.2.2
-om install SteamWebAPI2@4.2.0
-
-5. Дождитесь пока полность установятся библиотеки которые были вызванны через команду
-
-6. Выключите сервер
-
-7. Скопируйте контент который находится в папках plugins и libraries из установленного лоадера, в схожие и указанные папки: 
+2. Скопируйте контент который находится в папках plugins и libraries из установленного лоадера, в схожие и указанные папки: 
 Жмите на вставить с заменой файлы, если просит!
  
 plugins -> OpenMod\plugins
 libraries -> OpenMod\plugins
 
-8. Open configuration of the plugin
+3. Откройте конфигурацию плагина
 - OpenMod\plugins\UnturnedGuardDemoBootstrapper.OpenMod\config.yaml
 
-9. Настройте конфигурацию плагина
+4. Настройте конфигурацию плагина
 DebugMode: Нужен только для специальных случаев, менять только в том случае, если вас попросили разработчики
 
 DebugMode: false
 
-10. Запустите сервер
+5. Запустите сервер
 
-11. Готово!
+6. Готово!
 
 Если вам нужна помощь, у вас есть вопрос, или хотите отправить найденных баг, то сюда: https://discord.gg/jc4FPg6H6S
 
->>> Update
+>>> обновление
 Процесс обновления, если до этого лоадер уже был установлен
 
 1. Выключите сервер (если запущен)
